@@ -3,4 +3,9 @@ public class Main {
         System.out.println("First Version ist fertig");
         System.out.println("Version 2.0");
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
